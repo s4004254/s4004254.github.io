@@ -14,7 +14,10 @@
   </head>
   <body>
     <!-- Header Section -->
-    <!--  -->
+    <!-- Within the header section I included “art Video” to describe the context of the website. 
+      I changed the text font to a simple and clear font that is visually pleasing. The font ‘Montserrat’ 
+      is a simple font that does not adhere to the main video. 
+ -->
     <header>
       <h1>ART VIDEO</h1>
     </header>
@@ -40,15 +43,18 @@
               height="24"
             />
           </button>
-          <button id="mute-unmute-buttn">
-            <img
-              id="mute-unmute-img"
-              src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png"
-              alt="Mute Button"
-              width="24"
-              height="24"
-            />
+          <!-- I added the asset of the muting button. This would be useful for the user 
+            to experience the art video without sound. This would be needed if they are 
+            experiencing the work in a quiet place or if the user would want to experience 
+            the sound with a different sound. -->
+            <button id="mute-unmute-button" onclick="toggleSound()">
+              <img id="mute-unmute-img" src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png" 
+              alt="Mute Button" 
+              width="24" 
+              height="24" 
+              />
           </button>
+          
 
           <!-- add the missing buttons or functionality here -->
           <div class="progress-bar">
@@ -58,11 +64,7 @@
       </div>
 
       <!-- Additional Content Section -->
-      <section>
-        <h2>Additional Content</h2>
-        <p>This is where you can showcase any other relevant content.</p>
-        <!-- Add more content as needed -->
-      </section>
+      
     </main>
 
     <!-- Footer Section -->

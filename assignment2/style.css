@@ -5,6 +5,11 @@
     --main-text-color: #ffffff;
     --main-btn-bg-color: #ffffff;
   }
+  /* I adjusted the colour of the header and footer to match the 
+  bright purple hue found within the art video. This was to create
+   a cohesive connection between the video and the website. This was the 
+   same for the use of black as the background colour. The change to black 
+   is used to produce a seamless connection between the film and the website.  */
  
   .montserrat{
     font-family: "Montserrat", sans-serif;
@@ -118,6 +123,10 @@
     width: 0;
     transition: width 0.3s ease;
   }
+  /* The colour of the progress bar was also changed to the same 
+  purple that is used in the header and footer. This connects the 
+  different aspects of the website to prove more cohesive for the 
+  intended user.  */
   
   /* Footer styling */
   footer {
