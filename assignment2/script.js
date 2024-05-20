@@ -1,6 +1,7 @@
 const video = document.querySelector("#custom-video-player");
 const playPauseBtn = document.querySelector("#play-pause-btn");
 const playPauseImg = document.querySelector("#play-pause-img");
+const muteUnmuteImg = document.querySelector("#mute-unmute-img");
 const progressBar = document.querySelector("#progress-bar-fill");
 video.removeAttribute("controls");
 // playPauseBtn.addEventListener("click", togglePlayPause);
@@ -32,11 +33,11 @@ const muteUnmuteButton = document.querySelector("#mute-unmute-buttn");
 function toggleSound() {
     if (video.muted) {
         video.muted = false;
-        muteUnmuteButton.querySelector("img").src = "https://icons8.com/icon/reqgj3e1uKBy/audio";
+        muteUnmuteImg.src = "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
         muteUnmuteButton.style.backgroundColor = "#ffffff";
     } else {
         video.muted = true;
-        muteUnmuteButton.querySelector("img").src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
+        muteUnmuteImg.src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
         muteUnmuteButton.style.backgroundColor = "#a5a5a5";
     }
 }
