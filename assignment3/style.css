@@ -1,57 +1,57 @@
 body {
-    background-color: #d1d1d1; /* Light gray background */
+    background-color: #d1d1d1; 
     display: flex;
-    justify-content: center; /* Center align content horizontally */
-    align-items: center; /* Center align content vertically */
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
-    font-family: "Space Grotesk", sans-serif; /* Font family */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #d1d1be; /* Light yellowish text color */
-    font-size: 1.1rem; /* Base font size */
+    color: #d1d1be; 
+    font-size: 1.1rem;
   }
   
   header {
-    background-color: #ff0000; /* Red background */
-    color: #fff; /* White text color */
+    background-color: #ff0000; 
+    color: #fff; 
     margin: 6px;
-    padding: 100px; /* Padding around header content */
-    width: 100%; /* Full width of viewport */
-    text-align: center; /* Center align text */
-    position: relative; /* Positioned relative to document flow */
-    z-index: 100; /* Ensure header stays above other content */
+    padding: 100px; 
+    width: 100%; 
+    text-align: center;
+    position: relative; 
+    z-index: 100; 
   }
   .outer {
-    border: 2px dashed #ff0000b0; /* Red dashed border with transparency */
-    width: 300px; /* Fixed width for outer containers */
-    padding: 1px; /* Padding inside outer containers */
-    margin: 5px; /* Space between outer containers */
+    border: 2px dashed #ff0000b0; 
+    width: 300px;
+    padding: 1px;
+    margin: 5px; 
     display: flex;
-    flex-direction: column; /* Content direction: column */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
   }
   
   h1 {
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 5.5rem; /* Font size for heading */
-    text-align: center; /* Center align heading */
-    color: #f8f0e8; /* Light cream color text */
+    font-size: 5.5rem;
+    text-align: center;
+    color: #f8f0e8;
   }
   
   button {
     padding: 10px;
     cursor: pointer;
     border: none;
-    background-color: #fff; /* Add background color to button */
+    background-color: #fff;
   }
   
   button:hover {
     background-color: rgb(255, 0, 0);
-    transform: scale(1.1); /* Corrected typo: use 'transform' instead of 'scale' */
+    transform: scale(1.1);
   }
   
   .inner {

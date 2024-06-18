@@ -1,16 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font: inherit; /* Resets margin, padding, and inherits font */
+    font: inherit; 
   }
   
   html {
-    color-scheme: dark light; /* Set color scheme */
-    /* hanging-punctuation: first last; Not supported in all browsers */
+    color-scheme: dark light;
   }
   
   body {
-    min-height: 100vh; /* Ensures body covers the viewport height */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -23,14 +22,23 @@
   
   header {
     width: 100%;
-    background-color: #333; /* Example background color for the header */
-    color: #fff; /* Example text color for the header */
-    padding: 10px 0; /* Adjust padding as needed */
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
     text-align: center;
-    position: relative; /* Ensure header stays at the top */
-    z-index: 1000; /* Set a higher z-index to keep header above other content */
+    position: relative; 
+    z-index: 1000; 
   }
-
+/* 
+The borders and Margins are an important aspect of 
+the website design. They provide a visual separation 
+between the different elements of the website. I 
+included them to ensure that the user would be able 
+to easily understand the information being presented 
+to them. The applied margin and border place the i
+nteractive elements of my website in the centre. 
+This replicates a social media set-up that most users
+ would be familiar with. */
  
   .container {
     max-width: 10000px;
@@ -53,14 +61,14 @@
   h4,
   h5,
   p {
-    max-width: 75ch; /* Limits text width to 75 characters */
-    overflow-wrap: break-word; /* Handles long words */
+    max-width: 75ch; 
+    overflow-wrap: break-word; 
   }
   
   @media (prefers-reduced-motion: no-preference) {
     :target {
-      scroll-behavior: smooth; /* Smooth scrolling for targets */
-      scroll-padding-top: 3rem; /* Padding on scroll */
+      scroll-behavior: smooth; 
+      scroll-padding-top: 3rem; 
     }
   }
   
