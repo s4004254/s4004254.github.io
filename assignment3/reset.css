@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit; /* Resets margin, padding, and inherits font */
+  }
+  
+  html {
+    color-scheme: dark light; /* Set color scheme */
+    /* hanging-punctuation: first last; Not supported in all browsers */
+  }
+  
+  body {
+    min-height: 100vh; /* Ensures body covers the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.1rem;
+    color: #d1d1be;
+    background-color: #d1d1d1;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #333; /* Example background color for the header */
+    color: #fff; /* Example text color for the header */
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center;
+    position: relative; /* Ensure header stays at the top */
+    z-index: 1000; /* Set a higher z-index to keep header above other content */
+  }
+
+ 
+  .container {
+    max-width: 10000px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Media responsive */
+  img,
+  picture,
+  svg,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    max-width: 75ch; /* Limits text width to 75 characters */
+    overflow-wrap: break-word; /* Handles long words */
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    :target {
+      scroll-behavior: smooth; /* Smooth scrolling for targets */
+      scroll-padding-top: 3rem; /* Padding on scroll */
+    }
+  }
+  
